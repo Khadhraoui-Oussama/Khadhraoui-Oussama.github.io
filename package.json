@@ -1,6 +1,6 @@
 {
   "name": "package",
-  "homepage": "https://khadhraoui-oussama.github.io/personal-website",
+  "homepage": "http://www.oussmakhadhraoui.me",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build ",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
